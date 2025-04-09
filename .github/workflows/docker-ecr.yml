@@ -28,7 +28,7 @@ jobs:
 
       - name: Build, tag, and push Docker image to ECR
         env:
-          ECR_REGISTRY: 654654496822.dkr.ecr.us-east-1.amazonaws.com/wordpress-cicd
+          ECR_REGISTRY: 654654496822.dkr.ecr.us-east-1.amazonaws.com
           ECR_REPOSITORY: wordpress-cicd
           IMAGE_TAG: latest
         run: |
